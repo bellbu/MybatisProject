@@ -1,0 +1,19 @@
+# Eclipse / STS
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# Maven
+target/
+
+# Tomcat
+Servers/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
