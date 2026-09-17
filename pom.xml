@@ -116,7 +116,20 @@
 			<version>4.7</version>
 			<scope>test</scope>
 		</dependency>    
-		    
+		 
+ 		<!-- H2 Driver -->
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>1.4.200</version>
+		</dependency>   
+		
+		<!-- Mybatis -->
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis</artifactId>
+			<version>3.5.7</version>
+		</dependency>    
 	</dependencies>
     <build>
         <plugins>
